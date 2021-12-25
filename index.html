@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Jaume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <img src="./images/logo.png" width="70" alt="logo jaume">
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li>
+              <a class="is-active" href="#main">Hola</a>
+            </li>
+            <li>
+              <a href="#project">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contact">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button">Curriculum</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+  
+    <section aria-label="main" class="hero" id="main">
+      <div class="hero-image">
+        <img src="./images/jaume.png" width="338" height="330" alt="">
+      </div>
+      <div class="hero-description">
+        <h1>
+          <span>¡Hola a todos!</span>
+          <span>Soy Jaume</span>
+        </h1>
+        <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+  
+        <div class="social">
+          <a href="#" class="button-icon"><img src="./icons/icon-phone.svg" alt=""></a>
+          <a href="#" class="button-icon"><img src="./icons/icon-mail.svg" alt=""></a>
+          <a href="#" class="button-icon"><img src="./icons/icon-instagram.svg" alt=""></a>
+          <a href="#" class="button-icon"><img src="./icons/icon-twitter.svg" alt=""></a>
+        </div>
+  
+        <a href="#" class="button">Descargar curriculum</a>
+      </div>
+    </section>
+
+    <div class="personal-message">
+      <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+      <h4>Aquí hay algunos que me gustaría compartir.</h4>
+      <img src="./icons/arrow-down.svg" width="80" height="80" alt="arrow down">
+    </div>
+
+    <div class="project" id="project">
+      <div class="project-image">
+        <img src="./images/leonidas-esteban.png" alt="">
+      </div>
+      <div class="project-description">
+        <a class="title" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+        <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+          tus habilidades como desarrollador Front-End.</p>
+        <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
+        <a target="_blank" href="#" class="button">Ver Proyecto</a>
+      </div>
+    </div>
+
+    <div class="testimony">
+      <img src="./images/user.png" width="80" height="80" alt="">
+      <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+      <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+    </div>
+
+
+    <div class="project">
+      <div class="project-image">
+        <img src="./images/malvol.png" alt="">
+      </div>
+      <div class="project-description">
+        <a class="title" href="https://leonidasesteban.com">Marvol</a>
+        <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+        <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
+        <a target="_blank" href="#" class="button">Ver Proyecto</a>
+      </div>
+    </div>
+
+    <div class="testimony">
+      <img src="./images/user.png" width="80" height="80" alt="">
+      <p>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+      <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+    </div>
+
+    <div class="project">
+      <div class="project-image">
+        <img src="./images/netnet.png" alt="">
+      </div>
+      <div class="project-description">
+        <a class="title" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+        <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+          tus habilidades como desarrollador Front-End.</p>
+        <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
+        <a target="_blank" href="#" class="button">Ver Proyecto</a>
+      </div>
+    </div>
+
+    <div class="testimony">
+      <img src="./images/user.png" width="80" height="80" alt="">
+      <p>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos."</p>
+      <p>MARCO CORTEZ / NETNET</p>
+    </div>
+
+    <form class="form" action="" method="post">
+      <div class="form-content">
+        <h2 class="title">Hablemos</h2>
+        <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+        <label for="form-name">
+          Nombre Completo
+          <input name="form-name" id="form-name" type="text" placeholder="Juan" required>
+        </label>
+
+        <label for="form-email">
+          Correo electrónico
+          <input name="form-email" id="form-name" type="email" placeholder="Juan" required>
+        </label>
+
+        <label for="form-message">
+          Mensaje
+          <textarea name="form-message" placeholder="message" id="form-message" cols="30" rows="10" required></textarea>
+        </label>
+
+        <button type="submit" class="button">Enviar Mensaje</button>
+      </div>
+    </form>
+    
+    <footer class="footer" id="contact">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./images/logo.png" width="70" alt="logo jaume">
+        </div>
+        <div class="social">
+          <a href="#" class="button-icon"><img src="./icons/icon-phone.svg" alt=""></a>
+          <a href="#" class="button-icon"><img src="./icons/icon-mail.svg" alt=""></a>
+          <a href="#" class="button-icon"><img src="./icons/icon-instagram.svg" alt=""></a>
+          <a href="#" class="button-icon"><img src="./icons/icon-twitter.svg" alt=""></a>
+        </div>
+        <div class="footer-copyright">
+          <p>Hecho con el ♥ por Roberto</p>
+          <p>Copyright 2021 - Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.personal-message{
+  text-align: center;
+  padding-block: 40px;
+}
+
+.personal-message p{
+  font: var(--presentation);
+}
+
+.personal-message h4{
+  font: var(--headline5);
+  padding-block-end: 24px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px){
+  .personal-message{
+    padding-block: 200px;
+    max-inline-size: 900px;
+    margin: auto;
+  }
+
+  .personal-message p{
+    font-size: 34px;
+    line-height: 55px;
+  }
+}
